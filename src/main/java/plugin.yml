@@ -1,0 +1,7 @@
+name: ChunkUnloadTest
+main: com.bergerkiller.bukkit.chunkunloadtest.ChunkUnloadTest
+dev-url: ${project.url}
+version: ${project.version}
+description: Accesses a chunk during the chunk unload event to test a spigot issue
+authors: [bergerkiller]
+api-version: 1.13
