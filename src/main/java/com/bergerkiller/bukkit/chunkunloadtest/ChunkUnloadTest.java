@@ -23,6 +23,6 @@ public class ChunkUnloadTest extends JavaPlugin implements Listener {
 
         System.out.println("Unloading chunk [" + c.getX() + " / " + c.getZ() + "]");
         System.out.println("  Number of tile entities: " + c.getTileEntities().length);
-        System.out.println("  Material of block at 0,64,0: " + c.getBlock(c.getX() << 4, 0, c.getZ() << 4).getType());
+        System.out.println("  Material of block at 0,64,0: " + c.getBlock(0, 64, 0).getType());
     }
 }
